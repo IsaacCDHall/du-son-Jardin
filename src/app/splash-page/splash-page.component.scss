@@ -16,12 +16,8 @@
     margin: auto;
     align-items: center;
     img {
-      width: 40vw;
-      animation-duration: 3s;
-      animation-delay: 2s;
-      animation-iteration-count: infinite;
 
-      // height: inherit;
+      height: 15vh;
 
     }
   }
@@ -51,6 +47,7 @@
       color: #333;
       bottom: 100px;
       position: relative;
+
       #goog{
         border-right: 1px solid #333;
         padding-right: 50px;
@@ -59,9 +56,30 @@
         animation-iteration-count: infinite;
         // margin-left: -100px;
         // color: red;
+        &:hover{
+          cursor: pointer;
+          color: rgba(255, 255, 255, .7);
+        }
       }
       #chev{
         margin-left: 50px;
+        &:hover{
+          cursor: pointer;
+          color: rgba(255, 255, 255, .7);
+        }
+      }
+    }
+  }
+}
+
+// media query for logo size
+
+@media screen and (min-width: 650px) {
+  .mainPage{
+    .logo{
+      img{
+        width: 40vw;
+        height:auto;
       }
     }
   }
