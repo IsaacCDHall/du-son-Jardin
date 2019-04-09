@@ -1,6 +1,8 @@
-p{
-  color:white;
-}
+// body{
+//   // margin:20px;
+//
+// }
+
 .icons{
   padding: 25px;
   color: #333;
@@ -34,7 +36,7 @@ hr{
   position: relative;
 }
 
-// maybe hr only visible on mobile, otherwise black
+
 
 
 // grid begin
@@ -42,9 +44,11 @@ hr{
 .container{
   // margin-top: 107px;
   margin-top: 83px;
+  // margin-bottom: -15px;
   display: grid;
   width: 100vw;
-  height: calc(100vh - 85px;);
+  height: calc(100vh - 93px;);
+  // height:100vh;
   grid-template-columns: repeat(3, 1fr);
   .gridCell{
     //temp color for visualization of grid
@@ -57,6 +61,7 @@ hr{
 
 @media screen and (min-width: 650px) {
   hr{
+    //dont make this display none or grid runs above icons
     border-color: black;
   }
 }
