@@ -6,7 +6,7 @@ p{
   color: #333;
   // bottom: 100px;
   position: absolute;
-
+  max-width: 100%;
   #keyChev{
     border-left: 1px solid #333;
     padding-left: 50px;
@@ -52,5 +52,11 @@ hr{
     &:hover{
       background-color: rgba(255, 255, 255, .7);
     }
+  }
+}
+
+@media screen and (min-width: 650px) {
+  hr{
+    border-color: black;
   }
 }

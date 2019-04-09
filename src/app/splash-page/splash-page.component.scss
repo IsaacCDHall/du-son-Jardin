@@ -16,10 +16,7 @@
     margin: auto;
     align-items: center;
     img {
-      width: 40vw;
-
-      // height: inherit;
-
+      height: 15vh;
     }
   }
   input {
@@ -72,4 +69,14 @@
 
 
 // media query for logo size
-// img{height:12vh}
+
+@media screen and (min-width: 650px) {
+  .mainPage{
+    .logo{
+      img{
+        width: 40vw;
+        height:auto;
+      }
+    }
+  }
+}
