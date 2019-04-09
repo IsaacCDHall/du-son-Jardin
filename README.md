@@ -35,6 +35,10 @@
          - [x/100] SEO
          - [x/100] Progressive Web App
 
+## Planning
+
+![](src/assets/img/wireframe.png)
+
 ## Further Exploration / Future Updates
 
 * split screen between melodic and rhythmic
