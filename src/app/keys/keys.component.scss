@@ -27,3 +27,30 @@ p{
     }
   }
 }
+hr{
+  width: calc(100vw - 2px;);
+  border-color: #333;
+  top: 82px;
+  position: relative;
+}
+
+// maybe hr only visible on mobile, otherwise black
+
+
+// grid begin
+
+.container{
+  // margin-top: 107px;
+  margin-top: 83px;
+  display: grid;
+  width: 100vw;
+  height: calc(100vh - 85px;);
+  grid-template-columns: repeat(3, 1fr);
+  .gridCell{
+    //temp color for visualization of grid
+    background-color: rgba(155, 250, 150, .2);
+    &:hover{
+      background-color: rgba(255, 255, 255, .7);
+    }
+  }
+}
