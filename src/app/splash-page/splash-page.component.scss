@@ -9,7 +9,7 @@
   flex-flow:column;
   align-items: center;
   align-content: center;
-  .logo{
+  #logo{
     display: flex;
     // justify-content: center;
     height: auto;
@@ -17,6 +17,9 @@
     align-items: center;
     img {
       width: 40vw;
+      animation-duration: 3s;
+      animation-delay: 2s;
+      animation-iteration-count: infinite;
 
       // height: inherit;
 
@@ -24,7 +27,7 @@
   }
   input {
     background: transparent;
-    border-color: transparent;
+    border-color: transparentinsta;
     text-align: center;
     border-bottom: 1px white solid;
     display: block;
@@ -51,6 +54,9 @@
       #goog{
         border-right: 1px solid #333;
         padding-right: 50px;
+        animation-duration: 3s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
         // margin-left: -100px;
         // color: red;
       }
@@ -60,7 +66,3 @@
     }
   }
 }
-
-
-// media query for logo size
-// img{height:12vh}
