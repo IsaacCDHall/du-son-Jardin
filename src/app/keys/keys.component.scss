@@ -1,3 +1,29 @@
 p{
   color:white;
 }
+.icons{
+  padding: 25px;
+  color: #333;
+  // bottom: 100px;
+  position: absolute;
+
+  #keyChev{
+    border-left: 1px solid #333;
+    padding-left: 50px;
+    transform: rotate(180deg);
+
+    // margin-left: -100px;
+    // color: red;
+    &:hover{
+      cursor: pointer;
+      color: rgba(255, 255, 255, .7);
+    }
+  }
+  #keyGoog{
+    margin-left: 50px;
+    &:hover{
+      cursor: pointer;
+      color: rgba(255, 255, 255, .7);
+    }
+  }
+}
