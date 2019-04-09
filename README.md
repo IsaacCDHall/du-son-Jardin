@@ -11,6 +11,7 @@
 
          - [x] Logo
          - [x] Splash Page
+         - [x] Grid System
          - [x] Basic Sound Functionality on key press
          - [ ] Login Authentication
          - [ ] Readme lookin' nice
