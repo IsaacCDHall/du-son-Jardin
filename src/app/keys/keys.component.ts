@@ -7,9 +7,13 @@ import { Howl } from 'howler';
   styleUrls: ['./keys.component.scss']
 })
 export class KeysComponent {
+  handleClick(id){
+    // keyData[id].sound.play();
+    // id.sound.play();
+    console.log(id);
+  }
 
   constructor() {
-
     let keyData = {
       q: {
         sound: new Howl({
@@ -113,7 +117,7 @@ export class KeysComponent {
 
 
 
-                    //separate key sounds split at 7yhn
+      //separate key sounds split at 7yhn
 
 
 
@@ -194,12 +198,18 @@ export class KeysComponent {
     document.onkeydown = function(event) {
       if(keyData[event.key]) {
         keyData[event.key].sound.play();
-
+        console.log(document.body);
       }
 
     }
 
 
+
+   //  document.getElementById("q").onclick = function() {console.log("hello")};
+   //
+   //  let clickMe = function(){
+   //   console.log('solved!!');
+   // }
 
     // sound.play();
   }
