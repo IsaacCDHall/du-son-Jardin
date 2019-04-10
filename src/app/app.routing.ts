@@ -5,6 +5,7 @@ import { PaperCanvasComponent } from './paper-canvas/paper-canvas.component';
 import { KeysComponent } from './keys/keys.component';
 
 
+
 const appRoutes: Routes = [
   { path: '', redirectTo: '/splash', pathMatch: 'full' },
   { path: 'splash', component: SplashPageComponent },
