@@ -37,8 +37,6 @@ hr{
 }
 
 
-
-
 // grid begin
 
 .container{
@@ -64,4 +62,16 @@ hr{
     //dont make this display none or grid runs above icons
     border-color: black;
   }
+}
+
+// amination
+#extra {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: calc(200px * 2);
+  // top: calc(200px * random([20]);  background-image:url('./../../assets/img/ico.png');
+  // background-image: img('../assets/img/flower.png');
+ background-size: cover;
+ background-position: center;
 }
