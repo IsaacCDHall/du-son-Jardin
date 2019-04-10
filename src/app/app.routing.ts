@@ -9,7 +9,8 @@ const appRoutes: Routes = [
   { path: '', redirectTo: '/splash', pathMatch: 'full' },
   { path: 'splash', component: SplashPageComponent },
   { path: 'paper', component: PaperCanvasComponent },
-  { path: 'keys', component: KeysComponent }
+  { path: 'keys', component: KeysComponent },
+  { path: '**', redirectTo: 'splash' }
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(appRoutes);
