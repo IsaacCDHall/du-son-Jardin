@@ -7,8 +7,11 @@
   <hr>
 
   <div class="container">
-    <div on-click="handleClick('q')" class="gridCell" id="q">23</div>
-    <div on-click="handleClick('w')" class="gridCell" id="w">23</div>
+    <div id="extra">
+
+    </div>
+    <div on-click="handleClick('q')" class="gridCell" (click)="animatedClass($event)" id="q">23</div>
+    <div on-click="handleClick('w')" (click)="animatedClass($event)" class="gridCell" id="w">23</div>
     <div on-click="handleClick('e')" class="gridCell" id="e">23</div>
     <div on-click="handleClick('r')" class="gridCell" id="r">23</div>
     <div on-click="handleClick('t')" class="gridCell" id="t">23</div>
@@ -35,9 +38,6 @@
     <div on-click="handleClick('m')" class="gridCell" id="m">23</div>
     <div class="gridCell" id="extraSpace">Hey, im extra af</div>
   </div>
-  <!-- <div id="extra">
-
-  </div> -->
 </div>
 <!-- <p>hello</p> -->
 

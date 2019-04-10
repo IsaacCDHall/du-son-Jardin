@@ -65,13 +65,52 @@ hr{
 }
 
 // amination
-#extra {
+.q {
+  // display: none;
   position: absolute;
-  width: 100px;
-  height: 100px;
-  left: calc(200px * 2);
-  // top: calc(200px * random([20]);  background-image:url('./../../assets/img/ico.png');
-  // background-image: img('../assets/img/flower.png');
- background-size: cover;
- background-position: center;
+  width: 10%;
+  height: 10%;
+  padding-right: 55px;
+  padding-left: 50px;
+  padding-top: 65px;
+  // left: calc(200px * 2);
+  // top: calc(200px * random([20]);
+  background-image: url('./../../assets/img/butterfly.svg');
+  background-size:cover;
+  background-position: center;
+  animation: butterfly 10s;
+  animation-duration: 3s;
+  // animation-delay: 2s;
+
+}
+
+.w {
+  // display: none;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  padding-right: 55px;
+  padding-left: 50px;
+  padding-top: 65px;
+  // left: calc(200px * 2);
+  // top: calc(200px * random([20]);
+  background-image: url('./../../assets/img/butterfly.svg');
+  background-size:cover;
+  background-position: center;
+  animation: butterfly 10s;
+  animation-duration: 3s;
+  // animation-delay: 2s;
+
+}
+
+
+@keyframes butterfly {
+  0%{transform: translate(90vw, 0) rotateZ(120deg);}
+  20%{transform: translate(90vw, 0) rotateZ(-120deg);}
+  21%{transform: translate(50vw, 50vh) rotateZ(120deg);}
+  40%{transform: translate(50vw, 0) rotateZ(120deg);}
+  60%{transform: translate(50vw, 0) rotateZ(-120deg);}
+  61%{transform: translate(10vw, 50vh) rotateZ(120deg);}
+  80%{transform: translate(10vw, 0vh) rotateZ(120deg);}
+  100%{transform: translate(10vw, 0vh) rotateZ(-120deg);}
 }
