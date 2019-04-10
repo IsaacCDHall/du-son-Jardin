@@ -21,7 +21,8 @@ export class KeysComponent {
         loop: false,
         volume: 1,
         onend: function() {
-          div.style.display = 'none';
+          console.log('Finished!');
+          // div.style.display = 'none';
         }
       }),
       // color: '#1abc9c'
@@ -198,7 +199,7 @@ export class KeysComponent {
   handleClick(id){
     this.keyData[id].sound.play();
     // id.sound.play();
-    console.log(this.keyData);
+    // console.log(this.keyData);
   }
 
   ngOnInit() {
@@ -385,7 +386,7 @@ export class KeysComponent {
     }
     document.onkeydown = function(event) {
       if(keyData[event.key]) {
-        console.log(keyData);
+        // console.log(keyData);
         keyData[event.key].sound.play();
       }
     }
@@ -394,7 +395,7 @@ export class KeysComponent {
 
   animatedClass(event: any) {
     let id = event.target.id;
-    console.log(event.target.id);
+    // console.log(event.target.id);
     this.renderer.addClass(event.target, id);
   }
 }
