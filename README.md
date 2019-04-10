@@ -2,6 +2,12 @@
 
 [Top 11 animation libraries](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 
+[Google Auth](https://developers.google.com/api-client-library/javascript/start/start-js) (uploads require CORS)
+
+[Google Auth Steps](https://developers.google.com/api-client-library/javascript/start/start-js)
+
+[goTrue.js ](https://github.com/netlify/gotrue-js)External Auth in Netlify
+
  __Tasks :__
 
          - [x] A completed task
@@ -17,6 +23,7 @@
          - [ ] Readme lookin' nice
          - [ ] Reassign sounds to custom keys
          - [ ] Animation on key press
+         - [ ] MultiTouch mobile capability
 
  __Stretch Goals :__
 
