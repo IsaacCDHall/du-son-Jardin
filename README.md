@@ -2,6 +2,9 @@
 
 [Top 11 animation libraries](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
 
+[Create Offline WebApp](https://codelabs.developers.google.com/codelabs/offline/)
+
+
  __Tasks :__
 
          - [x] A completed task
@@ -25,6 +28,7 @@
          - [ ] Upload custom audio
          - [ ] Clickable divs to enable mobile use
          - [ ] Record beats
+         - [ ] Offline Service
          - [ ] Optimization
 
   __Optimization :__
