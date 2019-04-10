@@ -4,6 +4,9 @@
 
 [Create Offline WebApp](https://codelabs.developers.google.com/codelabs/offline/)
 
+[Remote Debugging](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/)
+
+
 
  __Tasks :__
 
