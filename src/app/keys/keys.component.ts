@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 import { Howl } from 'howler';
 
 @Component({
@@ -6,7 +6,12 @@ import { Howl } from 'howler';
   templateUrl: './keys.component.html',
   styleUrls: ['./keys.component.scss']
 })
+
+
 export class KeysComponent {
+
+  constructor(private renderer: Renderer2) {
+  }
 
   keyData = {
     q: {
@@ -17,6 +22,7 @@ export class KeysComponent {
         volume: 1,
         onend: function() {
           console.log('Finished!');
+          // div.style.display = 'none';
         }
       }),
       // color: '#1abc9c'
@@ -193,7 +199,7 @@ export class KeysComponent {
   handleClick(id){
     this.keyData[id].sound.play();
     // id.sound.play();
-    console.log(this.keyData);
+    // console.log(this.keyData);
   }
 
   ngOnInit() {
@@ -380,18 +386,16 @@ export class KeysComponent {
     }
     document.onkeydown = function(event) {
       if(keyData[event.key]) {
-        console.log(keyData);
+        // console.log(keyData);
         keyData[event.key].sound.play();
       }
-
     }
-
-
-
   }
 
 
-  constructor() {
-
+  animatedClass(event: any) {
+    let id = event.target.id;
+    // console.log(event.target.id);
+    this.renderer.addClass(event.target, id);
   }
 }
