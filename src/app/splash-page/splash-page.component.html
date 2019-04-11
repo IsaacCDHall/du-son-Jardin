@@ -6,8 +6,9 @@
     <!-- <input type="text" placeholder="Google Account"/>
     <input type="text" placeholder="Password"/> -->
     <hr>
-    <div *ngIf ="!isLoggedIn" class="icons">
-      <i id="goog"  [ngClass]="{'hidden': emaillogin}" (click)="login()" class="fab fa-google fa-2x"></i>
+    <div class="icons">
+      <i id="goog"  (click)="login()" class="fab fa-google fa-2x"></i>
+
       <i routerLink="/keys" id="chev"class="fas fa-chevron-right fa-2x"></i>
     </div>
   </div>
