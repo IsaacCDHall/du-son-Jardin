@@ -21,7 +21,7 @@
       "styles": [
         "styles.scss"
       ],
-      "scripts": [  "../node_modules/paper/dist/paper-full.min.js"],
+      "scripts": [ "../node_modules/jquery/dist/jquery.min.js", "../node_modules/paper/dist/paper-full.min.js"],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",

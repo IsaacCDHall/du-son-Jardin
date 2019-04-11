@@ -1,5 +1,7 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { Howl } from 'howler';
+import { animate } from "@angular/core";
+// import { setTimeout } from 'timers';
 
 @Component({
   selector: 'app-keys',
@@ -10,8 +12,11 @@ import { Howl } from 'howler';
 
 export class KeysComponent {
 
-  constructor(private renderer: Renderer2)  {
+
+  constructor(private renderer: Renderer2) {
+
   }
+
 
   keyData = {
     q: {
@@ -28,7 +33,7 @@ export class KeysComponent {
       // color: '#1abc9c'
     },
     w: {
-        sound: new Howl({
+      sound: new Howl({
         src: ['../assets/sounds/clay.mp3']
       }),
       // color: '#1abc9c'
@@ -196,13 +201,26 @@ export class KeysComponent {
 
   }
 
-  // handleClick(id){
-  //   this.keyData[id].sound.play();
-  //   // id.sound.play();
-  //   // console.log(this.keyData);
-  // }
+  handleClick(id){
+    this.keyData[id].sound.play();
+    // setTimeout(()=>{    //<<<---    using ()=> syntax
+    //       this.keyData[id]= false;
+    //  }, 3000);
+    // id.sound.();
+    // console.log(this.keyData);
+  }
+
+  // handleDown(id) {
+  //   this.keyData[id].
+  // }this.showImage = true;
+
+
+
+
+
 
   ngOnInit() {
+
     let keyData = {
       q: {
         sound: new Howl({
@@ -217,11 +235,6 @@ export class KeysComponent {
         // color: '#1abc9c'
       },
       w: {
-        // view: new Picture({
-        //   src: ['./../../assets/img/sketch2/orange-flower.png'],
-        // }),
-
-
         sound: new Howl({
           src: ['../assets/sounds/clay.mp3']
         }),
@@ -388,8 +401,8 @@ export class KeysComponent {
 
 
 
-    }
 
+    }
     document.onkeydown = function(event) {
       if(keyData[event.key]) {
         // console.log(keyData);
@@ -399,33 +412,13 @@ export class KeysComponent {
   }
 
 
+
   animatedClass(event: any) {
     let id = event.target.id;
-    console.log(event.target.id);
     this.renderer.addClass(event.target, id);
+     setTimeout (() => {
+          event.target.remove(event.target, id);
+       }, 3000);
 
-    setTimeout(function(){
-       alert("Hello");
-     }, 3000);
-
-     setTimeout(function(){
-        alert("Hello");
-      }, 3000) => { };
-
-      if (timerid) {
-  clearTimeout(timerid);
-}
-
-// timerid = setTimeout(() => {
-//   this.reqMaq(obj['fkmaqid'])
-// }, 2000);
-
-     setTimeout
-    this.renderer.removeClass(event.target, id);
-  }
-  handleClick(id){
-    this.keyData[id].sound.play();
-    // id.sound.play();
-    // console.log(this.keyData);
-  }
-}
+   }
+ }
