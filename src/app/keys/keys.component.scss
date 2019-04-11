@@ -155,7 +155,7 @@ hr{
   position: relative;
   width: 90%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/orange-flower.png');
+  background-image: url('./../../assets/img/sketch2/red.svg');
   background-size:cover;
   background-position: center;
   animation: jackInTheBox 10s;
@@ -322,7 +322,7 @@ hr{
   background-image: url('./../../assets/img/sketch2/pink-flower.svg');
   background-size:cover;
   background-position: center;
-  animation: jello 10s;
+  animation: spinningUp 10s;
   animation-duration: 3s;
 }
 
@@ -342,3 +342,17 @@ hr{
   100%{transform: translate(0vw, 0) rotateZ(120deg);}
 }
 
+@keyframes spinningUp {
+  0% {
+    bottom: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    bottom: 340px;
+    transform: rotate(180deg);
+  }
+  100% {
+    bottom: 0;
+    transform: rotate(360deg);
+  }
+}

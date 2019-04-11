@@ -403,14 +403,11 @@ export class KeysComponent {
     let id = event.target.id;
     console.log(event.target.id);
     this.renderer.addClass(event.target, id);
-
+}
 
   handleClick(id){
     this.keyData[id].sound.play();
-    // id.sound.play();
-    // console.log(this.keyData);
+
   }
 
 }
-
-
