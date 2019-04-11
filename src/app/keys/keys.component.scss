@@ -2,6 +2,10 @@
 //   // margin:20px;
 //
 // }
+* {
+  border: 5px solid red;
+  color: white;
+}
 
 .icons{
   padding: 25px;
@@ -70,7 +74,7 @@ hr{
 }
 
 .q {
-  position: absolute;
+  position: relative;
   width: 20%;
   height: 20%;
   padding-right: 55px;
@@ -88,7 +92,7 @@ hr{
 }
 
 .w {
-  position: absolute;
+  position: relative;
   width: 50%;
   height: 50%;
   padding-right: 20%;
@@ -105,22 +109,33 @@ hr{
 }
 
 .e {
-  position: absolute;
+  position: relative;
   width: 50%;
   height: 50%;
   padding-right: 20%;
   padding-left: 20%;
   padding-top: 20%;
-  // left: calc(200px * 2);
-  // top: calc(200px * random([20]);
   background-image: url('./../../assets/img/blue.svg');
   background-size:cover;
   background-position: center;
   animation: butterfly 10s forwards;
   animation-duration: 3s;
-  // animation-delay: 2s;
-}
 
+}
+.k {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  // padding-right: px;
+  // padding-left: 50px;
+  padding-top: 65px;
+  background-image: url('./../../assets/img/pink-note.svg');
+  background-size:cover;
+  background-position: center;
+  animation: butterfly 10s forwards;
+  animation-duration: 3s;
+
+}
 
 
 
@@ -133,5 +148,5 @@ hr{
   61%{transform: translate(10vw, 50vh) rotateZ(120deg);}
   80%{transform: translate(10vw, 0vh) rotateZ(120deg);}
   90%{transform: translate(10vw, 0vh) rotateZ(-120deg);}
-  100%{transform: translate(120vw, 0) rotateZ(120deg);}
+  100%{transform: translate(90vw, 0) rotateZ(120deg);}
 }
