@@ -10,7 +10,7 @@ import { Howl } from 'howler';
 
 export class KeysComponent {
 
-  constructor(private renderer: Renderer2) {
+  constructor(private renderer: Renderer2)  {
   }
 
   keyData = {
@@ -28,7 +28,7 @@ export class KeysComponent {
       // color: '#1abc9c'
     },
     w: {
-      sound: new Howl({
+        sound: new Howl({
         src: ['../assets/sounds/clay.mp3']
       }),
       // color: '#1abc9c'
@@ -196,11 +196,11 @@ export class KeysComponent {
 
   }
 
-  handleClick(id){
-    this.keyData[id].sound.play();
-    // id.sound.play();
-    // console.log(this.keyData);
-  }
+  // handleClick(id){
+  //   this.keyData[id].sound.play();
+  //   // id.sound.play();
+  //   // console.log(this.keyData);
+  // }
 
   ngOnInit() {
     let keyData = {
@@ -217,6 +217,11 @@ export class KeysComponent {
         // color: '#1abc9c'
       },
       w: {
+        // view: new Picture({
+        //   src: ['./../../assets/img/sketch2/orange-flower.png'],
+        // }),
+
+
         sound: new Howl({
           src: ['../assets/sounds/clay.mp3']
         }),
@@ -384,6 +389,7 @@ export class KeysComponent {
 
 
     }
+
     document.onkeydown = function(event) {
       if(keyData[event.key]) {
         // console.log(keyData);
@@ -395,7 +401,7 @@ export class KeysComponent {
 
   animatedClass(event: any) {
     let id = event.target.id;
-    // console.log(event.target.id);
+    console.log(event.target.id);
     this.renderer.addClass(event.target, id);
 
     setTimeout(function(){
@@ -416,5 +422,10 @@ export class KeysComponent {
 
      setTimeout
     this.renderer.removeClass(event.target, id);
+  }
+  handleClick(id){
+    this.keyData[id].sound.play();
+    // id.sound.play();
+    // console.log(this.keyData);
   }
 }

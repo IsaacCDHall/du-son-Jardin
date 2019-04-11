@@ -69,9 +69,25 @@ hr{
 }
 
 // amination
-#w {
+* {
   border: 2px solid red;
+  color: white;
 }
+//
+// .q {
+//   position: absolute;
+//   width: 32vw;
+//   height: 10vh;
+//   // height: 80px;
+//   // padding-right: 10%;
+//   // padding-left: 10%;
+//   background-image: url('./../../assets/img/sketch2/butterfly.svg');
+//   background-size:cover;
+//   background-position: center;
+//   animation: fadeInUpBig 10s ease-in;
+//   animation-duration: 3s;
+// }
+
 
 .q {
   position: relative;
@@ -135,7 +151,14 @@ hr{
   animation: butterfly 10s forwards;
   animation-duration: 3s;
 
+
 }
+
+
+// @keyframes rotateIn {
+//   0% {opacity: 0; transform: (45deg);}
+//   50% {opacity: 50; transform: rotate(90deg);}
+//   100% { opacity: 100; transform: (45deg);}
 
 
 
@@ -150,3 +173,4 @@ hr{
   90%{transform: translate(10vw, 0vh) rotateZ(-120deg);}
   100%{transform: translate(90vw, 0) rotateZ(120deg);}
 }
+
