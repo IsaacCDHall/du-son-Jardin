@@ -404,28 +404,10 @@ export class KeysComponent {
     console.log(event.target.id);
     this.renderer.addClass(event.target, id);
 
-    setTimeout(function(){
-       alert("Hello");
-     }, 3000);
-
-     setTimeout(function(){
-        alert("Hello");
-      }, 3000) => { };
-
-      if (timerid) {
-  clearTimeout(timerid);
 }
 
-// timerid = setTimeout(() => {
-//   this.reqMaq(obj['fkmaqid'])
-// }, 2000);
+handleClick(id){
+  this.keyData[id].sound.play();
+}
 
-     setTimeout
-    this.renderer.removeClass(event.target, id);
-  }
-  handleClick(id){
-    this.keyData[id].sound.play();
-    // id.sound.play();
-    // console.log(this.keyData);
-  }
 }
