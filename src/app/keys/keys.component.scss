@@ -88,6 +88,7 @@ hr{
 
 .q {
   position: relative;
+
   width: 100%;
   height: 100%;
   background-image: url('./../../assets/img/sketch2/butterfly.svg');
@@ -95,7 +96,6 @@ hr{
   background-position: center;
   animation: flash 10s forwards;
   animation-duration: 3s;
-
 
 }
 
@@ -120,6 +120,7 @@ hr{
   animation: flipInY 10s;
   animation-duration: 3s;
 }
+
 .r {
   position: relative;
   width: 35%;
@@ -140,16 +141,6 @@ hr{
   animation: fadeOutDown 10s;
   animation-duration: 3s;
 }
-// .a {
-//   position: relative;
-//   width: 100%;
-//   height: 100%;
-//   background-image: url('./../../assets/img/sketch2/yellow.svg');
-//   background-size:cover;
-//   background-position: center;
-//   animation: lightSpeedOut 10s;
-//   animation-duration: 3s;
-// }
 .a {
   position: relative;
   width: 80%;
@@ -191,6 +182,128 @@ hr{
   animation-duration: 5s;
 }
 
+.x{
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/sketch2/flower-flyaway.svg');
+  background-size:cover;
+  background-position: center;
+}
+.c{
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/sketch2/butterfly.svg');
+  background-size:cover;
+  background-position: center;
+}
+.v{
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/sketch2/butterfly.svg');
+  background-size:cover;
+  background-position: center;
+}
+.b {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/blue-note.svg');
+  background-size:cover;
+  background-position: center;
+}
+.y {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/red-sharp.png');
+  background-size:cover;
+  background-position: center;
+}
+.u {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/yellow-note.svg');
+  background-size:cover;
+  background-position: center;
+}
+.i {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/orange-flower.png');
+  background-size:cover;
+  background-position: center;
+}
+.o {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/violet-flower.svg');
+  background-size:cover;
+  background-position: center;
+}
+.p {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/pink-flower.svg');
+  background-size:cover;
+  background-position: center;
+}
+.h {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/blue-bass.png');
+  background-size:cover;
+  background-position: center;
+}
+.j {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/whole-note.svg');
+  background-size:cover;
+  background-position: center;
+}
+.k {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/bright-flower.png');
+  background-size:cover;
+  background-position: center;
+}
+.l {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/fushia-flower.svg');
+  background-size:cover;
+  background-position: center;
+}
+.n {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/aqua-flower.png');
+  background-size:cover;
+  background-position: center;
+}
+.m {
+  animation: jello 5s forwards;
+  width: 100%;
+  height: 100%;
+  background-image: url('./../../assets/img/peri-flower.svg');
+  background-size:cover;
+  background-position: center;
+
+}
+
 .g {
   position: relative;
   width: 60%;
@@ -216,21 +329,16 @@ hr{
 
 
 
-// @keyframes bounce {
-//   0% { transform: translate(0vw) rotateZ(0deg);}
-//   50% { transform: rotate(90deg);}
-//   100% {  transform: (45deg);}
-//
-// }
-// //
-// @keyframes bounce {
-//   0%{transform: translate(0vw, 0) rotateZ(0deg);}
-//   20%{transform: translate(90vw, 0) rotateZ(-120deg);}
-//   // 21%{transform: translate(50vw, 50vh) rotateZ(120deg);}
-//   // 40%{transform: translate(50vw, 0) rotateZ(120deg);}
-//   // 60%{transform: translate(50vw, 0) rotateZ(-120deg);}
-//   // 61%{transform: translate(10vw, 50vh) rotateZ(120deg);}
-//   // 80%{transform: translate(10vw, 0vh) rotateZ(120deg);}
-//   90%{transform: translate(10vw, 0vh) rotateZ(-120deg);}
-//   100%{transform: translate(0vw, 0) rotateZ(0deg);}
-// }
+
+@keyframes butterfly {
+  0%{transform: translate(0vw, 0) rotateZ(120deg);}
+  20%{transform: translate(90vw, 0) rotateZ(-120deg);}
+  21%{transform: translate(50vw, 50vh) rotateZ(120deg);}
+  40%{transform: translate(50vw, 0) rotateZ(120deg);}
+  60%{transform: translate(50vw, 0) rotateZ(-120deg);}
+  61%{transform: translate(10vw, 50vh) rotateZ(120deg);}
+  80%{transform: translate(10vw, 0vh) rotateZ(120deg);}
+  90%{transform: translate(10vw, 0vh) rotateZ(-120deg);}
+  100%{transform: translate(0vw, 0) rotateZ(120deg);}
+}
+
