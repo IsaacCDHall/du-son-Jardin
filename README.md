@@ -39,6 +39,11 @@
 
 ![](src/assets/img/wireframe.png)
 
+## Sketch Work
+![](src/assets/img/sketch2/custom-icon.png)
+![](src/assets/img/sketch2/custom-flowers.png)
+![](src/assets/img/custom-logo.png)
+
 ## Further Exploration / Future Updates
 
 * split screen between melodic and rhythmic
