@@ -3,7 +3,7 @@
 //
 // }
 * {
-  border: 5px solid red;
+
   color: white;
 }
 
@@ -89,12 +89,12 @@ hr{
 .q {
   position: relative;
 
-  width: 100%;
+  width: 50%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/butterfly.svg');
+  background-image: url('./../../assets/img/q.png');
   background-size:cover;
   background-position: center;
-  animation: flash 10s forwards;
+  animation: spinningDown 10s forwards;
   animation-duration: 3s;
 
 }
@@ -103,29 +103,29 @@ hr{
   position: relative;
   width: 100%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/blue.svg');
+  background-image: url('./../../assets/img/w.png');
   background-size:cover;
   background-position: center;
-  animation: wobble 10s;
+  animation: spinningDown 10s;
   animation-duration: 3s;
 }
 
 .e {
   position: relative;
-  width: 100%;
+  width: 50%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/green.svg');
+  background-image: url('./../../assets/img/e.png');
   background-size:cover;
   background-position: center;
-  animation: flipInY 10s;
+  animation: spinningDown 10s;
   animation-duration: 3s;
 }
 
 .r {
   position: relative;
-  width: 35%;
+  width: 60%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/non-flower.svg');
+  background-image: url('./../../assets/img/r.png');
   background-size:cover;
   background-position: center;
   animation: rubberBand 10s;
@@ -133,9 +133,9 @@ hr{
 }
 .t {
   position: relative;
-  width: 35%;
+  width: 100%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/pink.svg');
+  background-image: url('./../../assets/img/t.png');
   background-size:cover;
   background-position: center;
   animation: fadeOutDown 10s;
@@ -143,9 +143,9 @@ hr{
 }
 .a {
   position: relative;
-  width: 80%;
+  width: 50%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/red.svg');
+  background-image: url('./../../assets/img/q.png');
   background-size:cover;
   background-position: center;
   animation: zoomIn 10s;
@@ -153,9 +153,9 @@ hr{
 }
 .s {
   position: relative;
-  width: 90%;
+  width: 100%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/orange-flower.png');
+  background-image: url('./../../assets/img/s.png');
   background-size:cover;
   background-position: center;
   animation: jackInTheBox 10s;
@@ -165,7 +165,7 @@ hr{
   position: relative;
   width: 60%;
   height:100%;
-  background-image: url('./../../assets/img/sketch2/yellow.svg');
+  background-image: url('./../../assets/img/d.png');
   background-size:cover;
   background-position: center;
   animation: rotateInUpLeft 10s;
@@ -173,9 +173,9 @@ hr{
 }
 .f {
   position: relative;
-  width: 100%;
+  width: 35%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/butterfly.svg');
+  background-image: url('./../../assets/img/f.png');
   background-size:cover;
   background-position: center;
   animation: bounceOutRight 10s;
@@ -184,121 +184,121 @@ hr{
 
 .x{
   animation: jello 5s forwards;
-  width: 100%;
+  width: 70%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/flower-flyaway.svg');
+  background-image: url('./../../assets/img/x.png');
   background-size:cover;
   background-position: center;
 }
 .c{
   animation: jello 5s forwards;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/butterfly.svg');
+  background-image: url('./../../assets/img/c.png');
   background-size:cover;
   background-position: center;
 }
 .v{
   animation: jello 5s forwards;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/butterfly.svg');
+  background-image: url('./../../assets/img/v.png');
   background-size:cover;
   background-position: center;
 }
 .b {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 35%;
   height: 100%;
-  background-image: url('./../../assets/img/blue-note.svg');
+  background-image: url('./../../assets/img/b.png');
   background-size:cover;
   background-position: center;
 }
 .y {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/red-sharp.png');
+  background-image: url('./../../assets/img/y.png');
   background-size:cover;
   background-position: center;
 }
 .u {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 70%;
   height: 100%;
-  background-image: url('./../../assets/img/yellow-note.svg');
+  background-image: url('./../../assets/img/u.png');
   background-size:cover;
   background-position: center;
 }
 .i {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/orange-flower.png');
+  background-image: url('./../../assets/img/i.png');
   background-size:cover;
   background-position: center;
 }
 .o {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 35%;
   height: 100%;
-  background-image: url('./../../assets/img/violet-flower.svg');
+  background-image: url('./../../assets/img/o.png');
   background-size:cover;
   background-position: center;
 }
 .p {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 70%;
   height: 100%;
-  background-image: url('./../../assets/img/pink-flower.svg');
+  background-image: url('./../../assets/img/p.png');
   background-size:cover;
   background-position: center;
 }
 .h {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/blue-bass.png');
+  background-image: url('./../../assets/img/h.png');
   background-size:cover;
   background-position: center;
 }
 .j {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/whole-note.svg');
+  background-image: url('./../../assets/img/j.png');
   background-size:cover;
   background-position: center;
 }
 .k {
-  animation: jello 5s forwards;
-  width: 100%;
+  animation: spinningUp 5s forwards;
+  width: 30%;
   height: 100%;
-  background-image: url('./../../assets/img/bright-flower.png');
+  background-image: url('./../../assets/img/k.png');
   background-size:cover;
   background-position: center;
 }
 .l {
   animation: jello 5s forwards;
-  width: 100%;
+  width: 35%;
   height: 100%;
-  background-image: url('./../../assets/img/fushia-flower.svg');
+  background-image: url('./../../assets/img/l.png');
   background-size:cover;
   background-position: center;
 }
 .n {
-  animation: jello 5s forwards;
-  width: 100%;
+  animation: spinningUp 5s forwards;
+  width: 50%;
   height: 100%;
-  background-image: url('./../../assets/img/aqua-flower.png');
+  background-image: url('./../../assets/img/n.png');
   background-size:cover;
   background-position: center;
 }
 .m {
-  animation: jello 5s forwards;
+  animation: spinningUp 5s forwards;
   width: 100%;
   height: 100%;
-  background-image: url('./../../assets/img/peri-flower.svg');
+  background-image: url('./../../assets/img/m.png');
   background-size:cover;
   background-position: center;
 
@@ -308,7 +308,7 @@ hr{
   position: relative;
   width: 60%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/green.svg');
+  background-image: url('./../../assets/img/g.png');
   background-size:cover;
   background-position: center;
   animation: sideInLeft 10s;
@@ -319,11 +319,12 @@ hr{
   position: relative;
   width: 80%;
   height: 100%;
-  background-image: url('./../../assets/img/sketch2/pink-flower.svg');
+  background-image: url('./../../assets/img/z.png');
   background-size:cover;
   background-position: center;
-  animation: jello 10s;
+  animation: diagonal 10s;
   animation-duration: 3s;
+  transition-timing-function: linear,
 }
 
 
@@ -342,3 +343,49 @@ hr{
   100%{transform: translate(0vw, 0) rotateZ(120deg);}
 }
 
+@keyframes spinningUp {
+  0% {
+    bottom: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    bottom: 340px;
+    transform: rotate(180deg);
+  }
+  100% {
+    bottom: 0;
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinningDown {
+  0% {
+    bottom: 0;
+    transform: rotate(0deg);
+  }
+  50% {
+    bottom: -340px;
+    transform: rotate(180deg);
+  }
+  100% {
+    bottom: 0;
+    transform: rotate(360deg);
+  }
+}
+@keyframes diagonal {
+  0%{
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translateX(50px) translateY(25px);
+  }
+  50%{
+    transform: translateX(100px) translateY(50px);
+  }
+  75%{
+    transform: translateX(-50px) translateY(-25px);
+  }
+  100%{
+    transform: translateX(-100px) translateY(-50px);
+  }
+
+}

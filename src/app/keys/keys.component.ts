@@ -1,5 +1,8 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { Howl } from 'howler';
+import { animate } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-keys',
@@ -401,16 +404,15 @@ export class KeysComponent {
 
   animatedClass(event: any) {
     let id = event.target.id;
-    console.log(event.target.id);
     this.renderer.addClass(event.target, id);
-
+    setTimeout(() => {
+      event.target.remove(event.target, id);
+    }, 3000);
+}
 
   handleClick(id){
     this.keyData[id].sound.play();
-    // id.sound.play();
-    // console.log(this.keyData);
+
   }
 
 }
-
-
