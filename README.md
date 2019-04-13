@@ -71,6 +71,27 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
+## Firebase Credentials
+* Before serving the project, go to https://firebase.google.com/. Click on Get Started button.
+* Create account if you don't already have one.
+* Click to "Add project"
+* Enter project name "clone-angular"
+* Agree to controller-controller terms
+* Click to create a project, once project is ready click continue
+* You will enter a new page. Click on </> symbol of the top portion of the main pages
+* You will see a pop up page with your personal credentials.
+* Copy information, create api-keys.ts file int he src/app directory.
+
+* export const masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+
+enter following information and save
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
