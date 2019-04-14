@@ -420,5 +420,13 @@ export class KeysComponent {
           event.target.remove(event.target, id);
        }, 3000);
 
+
    }
  }
+
+
+  // handleClick(id){
+  //   this.keyData[id].sound.play();
+  //   // id.sound.play();
+  //   // console.log(this.keyData);
+  // }
