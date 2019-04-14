@@ -1,13 +1,15 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { Howl } from 'howler';
-import { animate } from "@angular/core";
-// import { setTimeout } from 'timers';
+import { animate } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-keys',
   templateUrl: './keys.component.html',
   styleUrls: ['./keys.component.scss']
 })
+
 
 
 export class KeysComponent {
@@ -201,14 +203,7 @@ export class KeysComponent {
 
   }
 
-  handleClick(id){
-    this.keyData[id].sound.play();
-    // setTimeout(()=>{    //<<<---    using ()=> syntax
-    //       this.keyData[id]= false;
-    //  }, 3000);
-    // id.sound.();
-    // console.log(this.keyData);
-  }
+
 
   // handleDown(id) {
   //   this.keyData[id].
@@ -416,17 +411,14 @@ export class KeysComponent {
   animatedClass(event: any) {
     let id = event.target.id;
     this.renderer.addClass(event.target, id);
-     setTimeout (() => {
-          event.target.remove(event.target, id);
-       }, 3000);
+    setTimeout(() => {
+      event.target.remove(event.target, id);
+    }, 3000);
+}
 
+  handleClick(id){
+    this.keyData[id].sound.play();
 
-   }
- }
+  }
 
-
-  // handleClick(id){
-  //   this.keyData[id].sound.play();
-  //   // id.sound.play();
-  //   // console.log(this.keyData);
-  // }
+}

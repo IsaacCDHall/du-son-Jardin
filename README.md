@@ -44,6 +44,8 @@
 
 ## Planning
 
+![](src/assets/img/prototype.png)
+
 ![](src/assets/img/wireframe.png)
 
 ## Sketch Work
