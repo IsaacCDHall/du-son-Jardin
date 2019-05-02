@@ -10,6 +10,7 @@ export class KeysComponent {
 
   keyData = {
     q: {
+      img: "this would be an image",
       sound: new Howl({
         src: ['../assets/sounds/bubbles.mp3'],
         autoplay: false,
@@ -193,7 +194,9 @@ export class KeysComponent {
   handleClick(id){
     this.keyData[id].sound.play();
     // id.sound.play();
-    console.log(this.keyData);
+    console.log(this.keyData[id]);
+    var element = document.getElementById(`${id + 'New'}`);
+    element.classList.toggle("transform-active");
   }
 
   ngOnInit() {

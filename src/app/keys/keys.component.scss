@@ -50,6 +50,9 @@ hr{
   grid-template-columns: repeat(3, 1fr);
   .gridCell{
     //temp color for visualization of grid
+
+
+
     background-color: rgba(155, 250, 150, .2);
     &:hover{
       background-color: rgba(255, 255, 255, .7);
@@ -74,4 +77,21 @@ hr{
   // background-image: img('../assets/img/flower.png');
  background-size: cover;
  background-position: center;
+}
+.transform {
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
+
+}
+.transform-active {
+  position: absolute;
+  background-color: #45cee0;
+  height: 200px;
+  width: 200px;
+  display: absolute;
+  margin-left: 20vw;
+  margin: 20vh 30vw;
 }
