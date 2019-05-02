@@ -84,14 +84,20 @@ hr{
   -o-transition: all 2s ease;
   -ms-transition: all 2s ease;
   transition: all 2s ease;
-
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 10px;
+  height: 10px;
+  background-color: purple;
 }
 .transform-active {
   position: absolute;
   background-color: #45cee0;
   height: 200px;
   width: 200px;
-  display: absolute;
+  position: absolute;
   margin-left: 20vw;
   margin: 20vh 30vw;
+  display: initial;
 }
