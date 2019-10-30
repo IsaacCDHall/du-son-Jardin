@@ -11,27 +11,25 @@ export class KeysComponent {
 
   keyData = {
     q: {
-      img: '../assets/img/q.png',
+      img: "this would be an image",
       sound: new Howl({
-        src: '../assets/sounds/bubbles.mp3',
+        src: ['../assets/sounds/bubbles.mp3'],
         autoplay: false,
         loop: false,
         volume: 1,
-        onend: function() {
+        onend: function () {
           console.log('Finished!');
         }
       }),
       // color: '#1abc9c'
     },
     w: {
-      img: '../assets/img/w.png',
       sound: new Howl({
         src: ['../assets/sounds/clay.mp3']
       }),
       // color: '#1abc9c'
     },
     e: {
-      img: ['../assets/img/e.png'],
       sound: new Howl({
         src: ['/assets/sounds/confetti.mp3']
       }),
@@ -194,20 +192,19 @@ export class KeysComponent {
 
   }
 
-  handleClick(id: string){
+  handleClick(id) {
     this.keyData[id].sound.play();
     console.log(this.keyData);
     var element = document.getElementById(`${id + 'New'}`);
     element.classList.toggle("transform-active");
   }
-  document: any.onkeydown = function(event: string) {
-      var element = document.getElementById(`${event + 'New'}`);
-      element.classList.toggle("transform-active");
-  }
+
   @HostListener('document:keypress', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
     console.log(event.key);
     this.keyData[event.key].sound.play();
+    const ele = document.getElementById(`${event.key + 'New'}`);
+    ele.classList.toggle("transform-active");
   }
 
   ngOnInit() {
