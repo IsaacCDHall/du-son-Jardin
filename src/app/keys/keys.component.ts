@@ -11,9 +11,9 @@ export class KeysComponent {
 
   keyData = {
     q: {
-      img: "this would be an image",
+      img: '../assets/img/q.png',
       sound: new Howl({
-        src: ['../assets/sounds/bubbles.mp3'],
+        src: '../assets/sounds/bubbles.mp3',
         autoplay: false,
         loop: false,
         volume: 1,
@@ -24,12 +24,14 @@ export class KeysComponent {
       // color: '#1abc9c'
     },
     w: {
+      img: '../assets/img/w.png',
       sound: new Howl({
         src: ['../assets/sounds/clay.mp3']
       }),
       // color: '#1abc9c'
     },
     e: {
+      img: ['../assets/img/e.png'],
       sound: new Howl({
         src: ['/assets/sounds/confetti.mp3']
       }),
@@ -192,14 +194,13 @@ export class KeysComponent {
 
   }
 
-  handleClick(id){
+  handleClick(id: string){
     this.keyData[id].sound.play();
-    // id.sound.play();
-    console.log(this.keyData[id]);
+    console.log(this.keyData);
     var element = document.getElementById(`${id + 'New'}`);
     element.classList.toggle("transform-active");
   }
-  document.onkeydown = function(event) {
+  document: any.onkeydown = function(event: string) {
       var element = document.getElementById(`${event + 'New'}`);
       element.classList.toggle("transform-active");
   }
