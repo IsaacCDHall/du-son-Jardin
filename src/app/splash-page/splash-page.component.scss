@@ -39,17 +39,17 @@
     text-align: center;
     hr{
       width: 40vw;
-      border-color: #333;
+      border-color: rgba(255, 255, 255, .7);
       bottom: 150px;
       position: relative;
     }
     .icons{
-      color: #333;
+      color: rgba(255, 255, 255, .7);
       bottom: 100px;
       position: relative;
 
       #goog{
-        border-right: 1px solid #333;
+        border-right: 1px solid rgba(255, 255, 255, .7);
         padding-right: 50px;
         animation-duration: 3s;
         animation-delay: 2s;
@@ -58,14 +58,14 @@
         // color: red;
         &:hover{
           cursor: pointer;
-          color: rgba(255, 255, 255, .7);
+          color: rgba(255, 255, 255, 1);
         }
       }
       #chev{
         margin-left: 50px;
         &:hover{
           cursor: pointer;
-          color: rgba(255, 255, 255, .7);
+          color: rgba(255, 255, 255, 1);
         }
       }
     }
