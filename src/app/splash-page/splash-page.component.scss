@@ -1,8 +1,8 @@
 .mainPage {
   background-color: black;
-  // max-height: 100vh;
-  max-height: 100vh;
-  max-width: 100vw;
+  border: 1px solid red;
+  width: 99vw;
+  min-height:99vh;
   text-align: center;
   margin: auto;
   display: flex;
