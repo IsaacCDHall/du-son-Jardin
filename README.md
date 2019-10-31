@@ -1,12 +1,16 @@
 # DuSonJardin
 
-[Top 11 animation libraries](https://blog.bitsrc.io/11-javascript-animation-libraries-for-2018-9d7ac93a2c59)
+## Getting Started
 
-[Google Auth](https://developers.google.com/api-client-library/javascript/start/start-js) (uploads require CORS)
+Every image asset in this project was custom created from scratch in sketch and each sound is copyright free.
 
-[Google Auth Steps](https://developers.google.com/api-client-library/javascript/start/start-js)
+* Clone Project (revival branch is set to default)
+* `npm install`
+* `ng serve` for development or `ng serve --prod` for optimized site
+* Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files while unless in `prod`
+* google icon is currently not in use and Oauth has been removed
 
-[goTrue.js ](https://github.com/netlify/gotrue-js)External Auth in Netlify
+If issues occur, try running `npm audit` at project base and then `ng serve` again.
 
  __Tasks :__
 
@@ -20,9 +24,9 @@
          - [x] Grid System
          - [x] Basic Sound Functionality on key press
          - [ ] Login Authentication
-         - [ ] Readme lookin' nice
-         - [ ] Reassign sounds to custom keys
-         - [ ] Animation on key press
+         - [?] Readme lookin' nice
+         - [x] Reassign sounds to custom keys
+         - [x] Animation on key press
          - [ ] MultiTouch mobile capability
 
  __Stretch Goals :__
@@ -44,7 +48,15 @@
 
 ## Planning
 
+![](src/assets/img/prototype.png)
+
 ![](src/assets/img/wireframe.png)
+
+## Sketch Work
+![](src/assets/img/sketch2/custom-icon.png)
+![](src/assets/img/sketch2/custom-flowers.png)
+![](src/assets/img/custom-logo.png)
+
 
 ## Further Exploration / Future Updates
 
@@ -52,9 +64,6 @@
 * ngAudio
 * ngAnimate
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -72,6 +81,26 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## In Conclusion
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Tests are no longer implemented in the project's current state.
+In general, the code is not in tip-top form as the structure and conventions could definitely use some work. In the future, I would like to refactor the code to be more DRY as well as create more elaborate and custom animations for each image imported. I believe this idea has great potential and the execution through angular does not quite live up to the quality of ideas and assets that went into it. 
+
+## Credits 
+
+This project was a group effort back in April, 2019 and the revival branch is an effort to bring this back to life as many packages had depreciated and the animations were never fully functional beforehand. I owe a big thanks to everyone from Epicodus who helped in the creation of this project! I encourage you to go check them out as well
+
+[Victoria Martinez](https://www.linkedin.com/in/victoria-martinez72/)
+
+[Nelia Terrazas](https://www.linkedin.com/in/nelia-terrazas/)
+
+[Kohichi Horii](https://www.linkedin.com/in/kohichi-horii/)
+
+
+[Me](https://www.linkedin.com/in/isaacdev/)
+
+
+
+
+
+
