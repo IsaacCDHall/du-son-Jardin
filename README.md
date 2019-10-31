@@ -4,10 +4,12 @@
 
 Every image asset in this project was custom created from scratch in sketch and each sound is copyright free.
 
-* Clone Project (revival branch is set to default)
-* `npm install`
-* `ng serve` for development or `ng serve --prod` for optimized site
-* Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files while unless in `prod`
+1. Clone Project (revival branch is set to default)
+2. `npm install`
+3. `ng serve` for dev or `ng serve --prod` for optimized
+4. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files
+5. Type or click the screen and be sure to check out mobile!
+
 * google icon is currently not in use and Oauth has been removed
 
 If issues occur, try running `npm audit` at project base and then `ng serve` again.
@@ -88,7 +90,7 @@ In general, the code is not in tip-top form as the structure and conventions cou
 
 ## Credits 
 
-This project was a group effort back in April, 2019 and the revival branch is an effort to bring this back to life as many packages had depreciated and the animations were never fully functional beforehand. I owe a big thanks to everyone from Epicodus who helped in the creation of this project! I encourage you to go check them out as well
+This project was a group effort back in April, 2019 and the revival branch is an effort to bring this back to life as many packages had depreciated and the animations were never fully functional beforehand. I owe a big thanks to everyone from Epicodus who helped in the creation of this project! I encourage you to go check them out on LinkedIn
 
 [Victoria Martinez](https://www.linkedin.com/in/victoria-martinez72/)
 
