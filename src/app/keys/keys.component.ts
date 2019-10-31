@@ -192,9 +192,9 @@ export class KeysComponent {
 
   }
 
-  handleClick(id) {
+  handleClick(id: string) {
     this.keyData[id].sound.play();
-    console.log(this.keyData[id]);
+    console.log(this.keyData);
     var element = document.getElementById(`${id + 'New'}`);
     element.classList.toggle("transform-active");
   }
