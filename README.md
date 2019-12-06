@@ -30,15 +30,15 @@ If issues occur, try running `npm audit` at project base and then `ng serve` aga
          - [x] Reassign sounds to custom keys
          - [x] Animation on key press
          - [ ] MultiTouch mobile capability
+         - [ ] Work with upper&lower case keys
 
  __Stretch Goals :__
 
          - [ ] Varied/unique/random animation on key press
-         - [ ] Svg animation with anime.js
          - [ ] Upload custom audio
-         - [ ] Clickable divs to enable mobile use
-         - [ ] Record beats
-         - [ ] Optimization
+         - [x] Clickable divs to enable mobile use
+         - [ ] Recording feature
+         - [x] Optimization
 
   __Optimization :__
 
@@ -75,22 +75,14 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## In Conclusion
 
 Tests are no longer implemented in the project's current state.
-In general, the code is not in tip-top form as the structure and conventions could definitely use some work. In the future, I would like to refactor the code to be more DRY as well as create more elaborate and custom animations for each image imported. I believe this idea has great potential and the execution through angular does not quite live up to the quality of ideas and assets that went into it. 
+In the future, I would like to refactor the code to be more DRY as well as create more elaborate and custom animations for each image imported. I believe this idea has great potential and the execution through angular does not quite live up to the quality of ideas and assets that went into it.
 
-## Credits 
+## Credits
 
-This project was a group effort back in April, 2019 and the revival branch is an effort to bring this back to life as many packages had depreciated and the animations were never fully functional beforehand. I owe a big thanks to everyone from Epicodus who helped in the creation of this project! I encourage you to go check them out on LinkedIn
+This project was a group effort back in April, 2019 and the revival branch is an effort to bring this back to life as many packages had depreciated and animations were never functional beforehand. I owe a big thanks to everyone from Epicodus who helped in the creation of this project! I encourage you to go check them out on LinkedIn
 
 [Victoria Martinez](https://www.linkedin.com/in/victoria-martinez72/)
 

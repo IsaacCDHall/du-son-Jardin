@@ -6,10 +6,10 @@ import { KeysComponent } from './keys/keys.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/splash', pathMatch: 'full' },
-  { path: 'splash', component: SplashPageComponent },
+  { path: '/splash', component: SplashPageComponent },
   { path: 'paper', component: PaperCanvasComponent },
   { path: 'keys', component: KeysComponent },
-  { path: '**', redirectTo: '' }
+  { path: '**', redirectTo: 'splash' }
 ];
 
 @NgModule({
