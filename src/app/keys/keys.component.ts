@@ -202,9 +202,9 @@ export class KeysComponent {
   @HostListener('document:keypress', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
     console.log(event.key);
-    const keyLetter = this.keyData[event.key.toLowerCase()];
+    const keyLetter = event.key.toLowerCase();
+    this.keyData[keyLetter].sound.play();
     const ele = document.getElementById(`${keyLetter + 'New'}`);
-    keyLetter.sound.play();
     ele.classList.toggle("transform-active");
   }
 
