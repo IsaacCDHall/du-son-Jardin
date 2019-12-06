@@ -26,26 +26,27 @@ If issues occur, try running `npm audit` at project base and then `ng serve` aga
          - [x] Grid System
          - [x] Basic Sound Functionality on key press
          - [ ] Login Authentication
-         - [?] Readme lookin' nice
+         - [x] Readme lookin' nice
          - [x] Reassign sounds to custom keys
          - [x] Animation on key press
          - [ ] MultiTouch mobile capability
-         - [ ] Work with upper&lower case keys
+         - [x] Work with upper&lower case keys
 
  __Stretch Goals :__
 
          - [ ] Varied/unique/random animation on key press
          - [ ] Upload custom audio
+         - [ ] Sound fading
          - [x] Clickable divs to enable mobile use
          - [ ] Recording feature
          - [x] Optimization
 
   __Optimization :__
 
-         - [x/100] Performance
-         - [x/100] Accessibility
-         - [x/100] Best Practices
-         - [x/100] SEO
+         - [80/100] Performance
+         - [75/100] Accessibility
+         - [90/100] Best Practices
+         - [92/100] SEO
          - [x/100] Progressive Web App
 
 ## Planning
