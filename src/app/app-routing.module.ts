@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'splash', component: SplashPageComponent },
   { path: 'paper', component: PaperCanvasComponent },
   { path: 'keys', component: KeysComponent },
-  { path: '**', redirectTo: '/splash' }
+  { path: '**', component: KeysComponent }
 ];
 
 @NgModule({
